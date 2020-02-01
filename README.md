@@ -15,7 +15,7 @@ Things you may want to cover:
   2) Upload image through API : curl -i -X POST -H "Content-Type: multipart/form-data"  -F "file=@/complete_path_of_image" -F "image[email]=email_id" http://localhost:3000/images/compress 
   3) Email will be triggered if user & images are valid. It should be in the below format,
   
-  ******************************************************************************************
+
     Rendering user_mailer/notification_email.html.erb within layouts/mailer
     Rendered user_mailer/notification_email.html.erb within layouts/mailer (1.5ms)
   UserMailer#notification_email: processed outbound mail in 174.3ms
@@ -46,7 +46,7 @@ Things you may want to cover:
       <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
     </head>
     <body>
-      <h1>Dear User!! %></h1>
+      <h1>Dear User!!</h1>
       <p>
         You have successfully compressed the image and you can download in http://localhost:3000/images/1/download.<br>
       </p>
@@ -62,6 +62,7 @@ Things you may want to cover:
 
   Started GET "/sidekiq/stats" for ::1 at 2020-02-01 19:11:03 +0100
   
-  *****************************************************************************
+ 
+ 
   
   4) If we click the link in the above email, corresponding image will be downloaded
