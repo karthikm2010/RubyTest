@@ -82,7 +82,7 @@ GEM
       os (~> 1.0.0)
       paperclip (>= 5.2.1)
     puma (3.12.2)
-    rack (2.1.2)
+    rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
     rack-test (0.6.3)
